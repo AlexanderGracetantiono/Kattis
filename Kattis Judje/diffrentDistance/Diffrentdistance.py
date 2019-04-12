@@ -1,0 +1,12 @@
+while(True):
+    sss=str(input())
+    if(sss=="0"):
+        break
+    ipt=sss.split()
+    x1=float(ipt[0])
+    y1=float(ipt[1])
+    x2=float(ipt[2])
+    y2=float(ipt[3])
+    p=float(ipt[4])
+    total=abs(((x1-x2)**p+(y1-y2)**p)**(1/p))
+    print(total)
